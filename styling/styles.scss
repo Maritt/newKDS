@@ -1,63 +1,68 @@
-@import url("https://fonts.googleapis.com/css?family=Oswald:500");
-nav a {
-  font-family: "Oswald", sans-serif;
-  font-weight: 500;
-  text-transform: uppercase;
-  text-decoration: none;
-  color: #16151b;
-  margin: 0 15px;
-  font-size: 16px;
-  letter-spacing: 1px;
-  position: relative;
-  display: inline-block;
-}
-nav a:before {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 3px;
-  background: #16151b;
-  top: 47%;
-  animation: out 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
-}
-nav a:hover:before {
-  animation: in 0.2s cubic-bezier(1, 0, 0.58, 0.97) 1 both;
-}
-@keyframes in {
-  0% {
-    width: 0;
-    left: 0;
-    right: auto;
-  }
-  100% {
-    left: 0;
-    right: auto;
-    width: 100%;
-  }
-}
-@keyframes out {
-  0% {
-    width: 100%;
-    left: auto;
-    right: 0;
-  }
-  100% {
-    width: 0;
-    left: auto;
-    right: 0;
-  }
-}
-@keyframes show {
-  0% {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
+$break-small: 622px;
+$break-large: 1200px;
+
 img {
-  width: 200px;
-  height: 200 px;
+  width: 20em;
+  margin-right: 2em;
+
+  @media screen and (max-width: $break-small) {
+    width: 10em;
+    margin-right: 1em;
+  }
+}
+
+h2 {
+  width: 42%;
+  font-size: 4em;
+  color: #28334a;
+  float: right;
+  @media screen and (max-width: $break-small) {
+    float: right;
+    font-size: 1.8em;
+  }
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  padding: 30px 0px;
+  width: 100%;
+
+  @media screen and (max-width: $break-small) {
+    display: flex;
+    flex-direction: column;
+    height: 20em;
+    justify-content: space-around;
+  }
+
+  &__link {
+    margin-right: 3em;
+    color: #28334a;
+    text-decoration: none;
+
+    :hover {
+      background-color: #ddd;
+      color: black;
+    }
+  }
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d6e1ec;
+  //flex-wrap: wrap;
+}
+.mobileMenu {
+  color: #28334a;
+}
+
+.burgerMenu {
+  height: 3em;
+  float: right;
+
+  @media screen and (min-width: $break-small) {
+    display: none;
+  }
 }
