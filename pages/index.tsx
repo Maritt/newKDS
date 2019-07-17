@@ -1,4 +1,4 @@
-import Layout from "./components/Layout.js";
+import Layout from "./components/Layout";
 import "../styling/styles.scss";
 
 export default function Home() {

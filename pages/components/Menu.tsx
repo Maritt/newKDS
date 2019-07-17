@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Header = () => (
+const Menu = () => (
   <nav>
     <Link href="/">
       <a>Home</a>
@@ -23,4 +23,4 @@ const Header = () => (
   </nav>
 );
 
-export default Header;
+export default Menu;
