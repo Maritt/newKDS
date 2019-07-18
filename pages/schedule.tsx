@@ -1,5 +1,5 @@
 import Layout from "./components/Layout";
-import "../styling/styles.scss";
+import "../styling/headerStyles.scss";
 
 export default function Schedule() {
   return (

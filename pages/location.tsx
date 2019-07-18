@@ -1,4 +1,4 @@
-import "../styling/styles.scss";
+import "../styling/headerStyles.scss";
 import Layout from "./components/Layout";
 export default function Location() {
   return (
