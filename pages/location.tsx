@@ -1,7 +1,5 @@
-import "../styling/styles.scss";
 import Layout from "./components/Layout";
-import "../styling/styling.scss";
-
+import "../styling/locationStyles.scss";
 export default function Location() {
   return (
     <Layout>

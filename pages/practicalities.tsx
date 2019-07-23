@@ -1,5 +1,5 @@
 import Layout from "./components/Layout";
-import "../styling/styles.scss";
+import "../styling/styling.scss";
 
 export default function Practicalities() {
   return (
