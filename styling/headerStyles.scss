@@ -1,15 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import "variables";
 
-body {
-  margin: 0px;
-  font-family: "Raleway", sans-serif;
-}
 .header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #c9e2e0;
+  background-color: $secondary-color;
 
   #KDSlogo {
     width: 20em;
@@ -23,101 +19,11 @@ body {
   #KDSheader {
     width: 42%;
     font-size: 4em;
-    color: #28334a;
+    color: $primary-color;
     float: right;
     @media screen and (max-width: $break-small) {
       float: right;
       font-size: 1.8em;
-    }
-  }
-}
-
-#menu {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-
-  @media screen and (max-width: $break-small) {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-
-    position: absolute;
-    background-color: white;
-    width: 300px;
-    margin: 0;
-
-    /* to stop flickering of text in safari */
-    transform-origin: 0% 0%;
-    transform: translate(-100%, 0);
-    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
-  }
-
-  .link {
-    color: #28334a;
-    text-decoration: none;
-    padding: 1em 1em 1em 1em;
-
-    &:hover {
-      transition: 0.4s linear all;
-      background-color: #e4e2db;
-      color: black;
-      cursor: pointer;
-    }
-  }
-}
-
-#menuToggle {
-  .checkbox {
-    padding: 5px;
-  }
-  input {
-    display: none;
-    @media screen and (max-width: $break-small) {
-      display: block;
-      width: 43px;
-      height: 41px;
-      position: absolute;
-      top: -7px;
-      left: -5px;
-
-      cursor: pointer;
-
-      opacity: 0; /* hide this */
-      z-index: 2; /* and place it over the hamburger */
-
-      -webkit-touch-callout: none;
-    }
-  }
-
-  input:checked ~ #menu {
-    transform: none;
-  }
-
-  span {
-    @media screen and (max-width: $break-small) {
-      display: block;
-      width: 100%;
-      height: 4px;
-      margin-top: 4px;
-      margin-bottom: 5px;
-      position: relative;
-
-      color: #cdcdcd;
-      background: currentColor;
-      border-radius: 3px;
-
-      z-index: 1;
-    }
-  }
-
-  #menuButton {
-    padding: 5px;
-    width: 33px;
-
-    display: none;
-    @media screen and (max-width: $break-small) {
-      display: inline-block;
     }
   }
 }

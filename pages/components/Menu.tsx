@@ -1,4 +1,5 @@
 import Link from "next/link";
+import "../../styling/menuStyles.scss";
 
 const Menu = () => (
   <nav role="navigation">
