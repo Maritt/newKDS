@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+@import "variables";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $secondary-color;
+
+  #KDSlogo {
+    width: 20em;
+    margin-right: 2em;
+
+    @media screen and (max-width: $break-small) {
+      width: 10em;
+      margin-right: 1em;
+    }
+  }
+  #KDSheader {
+    width: 42%;
+    font-size: 4em;
+    color: $primary-color;
+    float: right;
+    @media screen and (max-width: $break-small) {
+      float: right;
+      font-size: 1.8em;
+    }
+  }
+}
