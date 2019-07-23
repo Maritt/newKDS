@@ -1,7 +1,11 @@
+import Talk from "./Talk";
+import EventHeader from "./EventHeader";
+import Day from "./Day";
+
 export default function ScheduleEntry(props) {
   return (
     <div className="content">
-      <h2>Friday</h2>
+      <Day day="FRIDAY , 12th" />
       <div className="session">
         <EventHeader eventHeader="Morning session" eventTime="11:00" />
         <Talk
@@ -21,35 +25,7 @@ export default function ScheduleEntry(props) {
           eventTime={props.eventTime}
         />
       </div>
+      <Day day="SATURDAY , 13th" />
     </div>
   );
 }
-
-const EventHeader = props => {
-  return (
-    <div>
-      <h3>{props.eventHeader}</h3>
-      <p>{props.eventTime}</p>
-    </div>
-  );
-};
-
-const Talk = props => {
-  return (
-    <div className="talk-container">
-      <h3 id="title">{props.title}</h3>
-      <p id="speaker">{props.speaker}</p>
-      <div className="talk-info">
-        <p id="room" className="info-entry">
-          {props.room}
-        </p>
-        <p id="type" className="info-entry">
-          {props.type}
-        </p>
-        <p id="language" className="info-entry">
-          {props.language}
-        </p>
-      </div>
-    </div>
-  );
-};

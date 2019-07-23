@@ -1,7 +1,7 @@
-$break-small: 650px;
-$break-large: 1200px;
-
+@import "variables";
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 .session {
+  display: none;
   background-color: #c9e2e0;
 }
 
@@ -29,4 +29,20 @@ $break-large: 1200px;
       margin-right: 2em;
     }
   }
+}
+
+.day-button {
+  border: none;
+  background-color: $button-color;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  padding: 2em;
+  margin-bottom: 2em;
+}
+
+#baseline-chevron {
+  width: 3em;
 }
