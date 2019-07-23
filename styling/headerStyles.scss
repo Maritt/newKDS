@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
-$break-small: 650px;
-$break-large: 1200px;
+@import "variables";
 
 body {
   margin: 0px;

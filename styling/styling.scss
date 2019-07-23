@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
-$break-small: 650px;
-$break-large: 1200px;
+@import "variables";
 .content {
   padding: 4em;
   margin-top: 1em;
@@ -17,19 +16,4 @@ $break-large: 1200px;
 body {
   padding: 0;
   font-family: "Raleway", sans-serif;
-}
-
-#map {
-  width: 80em;
-  height: 40em;
-
-  @media screen and (max-width: $break-small) {
-    width: 20em;
-    height: 20em;
-  }
-}
-
-#location-link {
-  color: #009681;
-  font-size: 2em;
 }

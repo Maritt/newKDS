@@ -1,4 +1,5 @@
 import Menu from "./Menu";
+import "../../styling/headerStyles.scss";
 
 const Layout = props => (
   <div>

@@ -1,0 +1,16 @@
+@import "variables";
+
+#map {
+  width: 80em;
+  height: 40em;
+
+  @media screen and (max-width: $break-small) {
+    width: 20em;
+    height: 20em;
+  }
+}
+
+#location-link {
+  color: #009681;
+  font-size: 2em;
+}
