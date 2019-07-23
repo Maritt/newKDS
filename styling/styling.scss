@@ -1,8 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+$break-small: 650px;
+$break-large: 1200px;
 .content {
-  font-family: Arial;
   padding: 4em;
+  margin-top: 1em;
+
+  .paragraphLink {
+    color: #57728b;
+    font-weight: bold;
+  }
+
+  @media screen and (max-width: $break-small) {
+    font-size: 0.7em;
+  }
 }
 body {
   padding: 0;
-  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+#map {
+  width: 80em;
+  height: 40em;
+
+  @media screen and (max-width: $break-small) {
+    width: 20em;
+    height: 20em;
+  }
+}
+
+#location-link {
+  color: #009681;
+  font-size: 2em;
 }

@@ -1,11 +1,16 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 $break-small: 650px;
 $break-large: 1200px;
 
+body {
+  margin: 0px;
+  font-family: "Raleway", sans-serif;
+}
 .header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #d6e1ec;
+  background-color: #c9e2e0;
 
   #KDSlogo {
     width: 20em;
@@ -31,7 +36,6 @@ $break-large: 1200px;
 #menu {
   display: flex;
   justify-content: center;
-  padding: 0px;
   width: 100%;
 
   @media screen and (max-width: $break-small) {
