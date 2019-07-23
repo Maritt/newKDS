@@ -1,0 +1,32 @@
+$break-small: 650px;
+$break-large: 1200px;
+
+.session {
+  background-color: #c9e2e0;
+}
+
+.talk-container {
+  background-color: white;
+  width: 50em;
+  margin: 1em;
+
+  #title {
+    font-size: 1.5em;
+    margin-bottom: 0px;
+    margin-left: 1em;
+  }
+  #speaker {
+    margin-top: 0.5em;
+    margin-left: 1.5em;
+  }
+
+  .talk-info {
+    margin-left: 1.5em;
+    display: flex;
+    justify-content: flex-start;
+
+    .info-entry {
+      margin-right: 2em;
+    }
+  }
+}
