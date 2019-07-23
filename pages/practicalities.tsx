@@ -8,16 +8,27 @@ export default function Practicalities() {
         <h1>Practical information</h1>
         <p>
           The registration is closed. If you want to participate, please send us
-          an <a href="mailto:kds@knowit.no">email</a>, and we will try to get
-          you a spot.
+          an{" "}
+          <a className="paragraphLink" href="mailto:kds@knowit.no">
+            email
+          </a>
+          , and we will try to get you a spot.
         </p>
         <p>
           If you have questions during or before the conference, please feel
           free to contact us on Slack. We have created a slack-channel,{" "}
-          <a href="https://knowit.slack.com/archives/kds2019">#kds2019</a>, for
-          everything regarding the conference, join us and get the latest news!
-          No account on slack? Then{" "}
-          <a href="https://knowit.slack.com/signup">sign up</a> first.
+          <a
+            className="paragraphLink"
+            href="https://knowit.slack.com/archives/kds2019"
+          >
+            #kds2019
+          </a>
+          , for everything regarding the conference, join us and get the latest
+          news! No account on slack? Then{" "}
+          <a className="paragraphLink" href="https://knowit.slack.com/signup">
+            sign up
+          </a>{" "}
+          first.
         </p>
         <p>
           <strong>Dinner.</strong> We will eat dinner together on Friday
