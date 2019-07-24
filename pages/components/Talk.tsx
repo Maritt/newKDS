@@ -1,8 +1,12 @@
 const Talk = props => {
   return (
     <div className="talk-container">
-      <h3 id="title">{props.title}</h3>
-      <p id="speaker">{props.speaker}</p>
+      <h3 id="title">
+        <a href="./talksAndSpeakers">{props.title}</a>
+      </h3>
+      <p id="speaker">
+        <a href="./talksAndSpeakers">{props.speaker}</a>
+      </p>
       <div className="talk-info">
         <p id="room" className="info-entry">
           {props.room}

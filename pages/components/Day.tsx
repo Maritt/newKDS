@@ -32,6 +32,7 @@ class Day extends Component<IProps, any> {
             <ShowScheduleButton
               showSchedule={this.showSchedule}
               day={this.props.day}
+              clicked={this.state.clicked}
             />
             <ScheduleEntry
               eventTime="09:00"
@@ -55,6 +56,7 @@ class Day extends Component<IProps, any> {
           <ShowScheduleButton
             showSchedule={this.showSchedule}
             day={this.props.day}
+            clicked={this.state.clicked}
           />
         )}
       </div>
@@ -63,15 +65,28 @@ class Day extends Component<IProps, any> {
 }
 
 const ShowScheduleButton = props => {
-  return (
-    <button className="day-button" type="submit" onClick={props.showSchedule}>
-      <h2>{props.day}</h2>
-      <img
-        id="baseline-chevron"
-        src="../../static/baseline-chevron_right.svg"
-      />
-    </button>
-  );
+  if (props.clicked) {
+    return (
+      <button className="day-button" type="submit" onClick={props.showSchedule}>
+        <h2>{props.day}</h2>
+        <div className="right-arrow">
+          <img id="baseline-chevron" src="../../static/arrow_down.svg" />
+        </div>
+      </button>
+    );
+  } else {
+    return (
+      <button className="day-button" type="submit" onClick={props.showSchedule}>
+        <h2>{props.day}</h2>
+        <div className="right-arrow">
+          <img
+            id="baseline-chevron"
+            src="../../static/baseline-chevron_right.svg"
+          />
+        </div>
+      </button>
+    );
+  }
 };
 
 export default Day;
