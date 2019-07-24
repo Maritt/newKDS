@@ -1,9 +1,5 @@
 @import "variables";
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
-.session {
-  display: none;
-  background-color: #c9e2e0;
-}
 
 .talk-container {
   background-color: white;
@@ -37,10 +33,12 @@
   font-family: "Raleway", sans-serif;
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 70%;
   align-items: center;
   padding: 2em;
-  margin-bottom: 2em;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #baseline-chevron {
