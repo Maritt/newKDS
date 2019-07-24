@@ -1,7 +1,10 @@
 import { Component } from "react";
 import ScheduleEntry from "./ScheduleEntry";
 
-class Day extends Component<{}, any> {
+interface IProps {
+  day: string;
+}
+class Day extends Component<IProps, any> {
   constructor(props) {
     super(props);
     this.state = {
@@ -19,7 +22,6 @@ class Day extends Component<{}, any> {
         clicked: true
       });
     }
-    console.log(this.state.clicked);
   };
 
   render() {
@@ -29,16 +31,30 @@ class Day extends Component<{}, any> {
           <div>
             <ShowScheduleButton
               showSchedule={this.showSchedule}
-              day="FRIDAY , 12th"
+              day={this.props.day}
             />
-            <ScheduleEntry />
-            <p>test</p>
+            <ScheduleEntry
+              eventTime="09:00"
+              title="Morning Test talk title"
+              speaker="Test Testesen"
+              room="Room C3"
+              type="Short talk"
+              language="English"
+            />
+            <ScheduleEntry
+              eventTime="12:00"
+              title="Midday Test talk title "
+              speaker="Test Testesen"
+              room="Room C5"
+              type="Short talk"
+              language="Norwegian"
+            />
           </div>
         )}
         {!this.state.clicked && (
           <ShowScheduleButton
             showSchedule={this.showSchedule}
-            day="FRIDAY , 12th"
+            day={this.props.day}
           />
         )}
       </div>

@@ -7,7 +7,8 @@ export default function Schedule() {
   return (
     <Layout>
       <h1>Schedule</h1>
-      <Day />
+      <Day day="FRIDAY , 12th" />
+      <Day day="SATURDAY , 13th" />
     </Layout>
   );
 }

@@ -4,14 +4,13 @@ import EventHeader from "./EventHeader";
 const ScheduleEntry = props => {
   return (
     <div className="content">
-      <EventHeader eventHeader="Morning session" eventTime="11:00" />
+      <EventHeader eventTime={props.eventTime} />
       <Talk
-        title="Test talk title"
-        speaker="Test Testesen"
-        room="Room C3"
-        type="Short talk"
-        language="English"
-        eventTime="11:00"
+        title={props.title}
+        speaker={props.speaker}
+        room={props.room}
+        type={props.type}
+        language={props.language}
       />
       <Talk
         title="Test talk 2 titlte"
@@ -19,7 +18,6 @@ const ScheduleEntry = props => {
         room="Room 24"
         type="Short talk"
         language="English"
-        eventTime="11:00"
       />
     </div>
   );

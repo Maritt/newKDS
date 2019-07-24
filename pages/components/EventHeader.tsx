@@ -1,8 +1,7 @@
 const EventHeader = props => {
   return (
-    <div>
-      <h3>{props.eventHeader}</h3>
-      <p>{props.eventTime}</p>
+    <div className="event-header">
+      <p className="time">{props.eventTime}</p>
     </div>
   );
 };
