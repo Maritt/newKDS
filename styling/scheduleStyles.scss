@@ -10,8 +10,8 @@
     justify-content: space-evenly;
   }
   @media screen and (max-width: $break-large) {
+    display: block;
   }
-  display: block;
 }
 .talk-container {
   background-color: $button-color;
@@ -20,7 +20,8 @@
   @media screen and (max-width: $break-large) {
     width: 85%;
     margin: 1em;
-
+    margin-left: auto;
+    margin-right: auto;
     padding: 0.3em;
   }
 
