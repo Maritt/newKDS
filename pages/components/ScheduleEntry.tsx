@@ -1,45 +1,39 @@
 import Talk from "./Talk";
 import EventHeader from "./EventHeader";
+import { Component } from "react";
 
-const ScheduleEntry = props => {
-  return (
-    <div className="content">
-      <EventHeader eventTime={props.eventTime} eventName={props.EventName} />
-      <div className="talk-slot">
-        <Talk
-          title={props.title}
-          speaker={props.speaker}
-          room={props.room}
-          type={props.type}
-          language={props.language}
-          difficulty={props.difficulty}
-        />
-        <Talk
-          title="Test talk 2 titlte"
-          speaker="Testete testesen"
-          room="Room 24"
-          type="Short talk"
-          language="English"
-          difficulty="Beginner"
-        />
-        <Talk
-          title="Test talk 2 titlte"
-          speaker="Testete testesen"
-          room="Room 24"
-          type="Short talk"
-          language="English"
-          difficulty="Beginner"
-        />
-        <Talk
-          title="Test talk 2 titlte"
-          speaker="Testete testesen"
-          room="Room 24"
-          type="Short talk"
-          language="English"
-          difficulty="Beginner"
-        />
-      </div>
-    </div>
-  );
+interface IProps {
+  slot: any
+}
+class ScheduleEntry extends Component<IProps, any> {
+  constructor(props) {
+    super(props)
+  }
+
+  render() {
+
+    if (this.props.slot.rooms) {
+      return (
+        <div className="content">
+          <EventHeader timeStart={this.props.slot.timeStart} timeEnd={this.props.slot.timeEnd} type={this.props.slot.type} />
+          <div className="talk-slot">
+
+            {this.props.slot.rooms.map(room =>
+              <Talk title={room.talks[0].title}
+                speaker={room.talks[0].speaker.name}
+                room={room.name}
+                type={room.talks[0].type}
+                language={room.talks[0].language}
+                difficulty={room.talks[0].difficulty} />
+            )}
+          </div>
+        </div>
+      );
+    } else {
+      return (<div className="content">
+        <EventHeader timeStart={this.props.slot.timeStart} timeEnd={this.props.slot.timeEnd} type={this.props.slot.type} />
+      </div>);
+    }
+  }
 };
 export default ScheduleEntry;

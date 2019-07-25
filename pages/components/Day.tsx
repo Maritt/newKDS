@@ -33,6 +33,8 @@ class Day extends Component<IProps, any> {
             <ShowScheduleButton
               showSchedule={this.showSchedule}
               day={this.props.currDay}
+              timeStart={this.props.slots[0].timeStart}
+              slots={this.props.slots}
               clicked={this.state.clicked}
             />
           </div>
@@ -41,6 +43,8 @@ class Day extends Component<IProps, any> {
           <ShowScheduleButton
             showSchedule={this.showSchedule}
             day={this.props.currDay}
+            timeStart={this.props.slots[0].timeStart}
+            slots={this.props.slots}
             clicked={this.state.clicked}
           />
         )}
@@ -52,25 +56,49 @@ class Day extends Component<IProps, any> {
 const ShowScheduleButton = props => {
   if (props.clicked) {
     return (
-      <ShowDailySchedule day={props.day} showSchedule={props.showSchedule} />
+      <ShowDailySchedule
+        day={props.day}
+        slots={props.slots}
+        showSchedule={props.showSchedule}
+        timeStart={props.timeStart}
+      />
     );
   } else {
-    return (
-      <button
-        className="day-button"
-        id="arrow-right"
-        type="submit"
-        onClick={props.showSchedule}
-      >
-        <h2>{props.day}</h2>
-        <div className="right-arrow">
-          <img
-            className="baseline-chevron"
-            src="../../static/baseline-chevron_right.svg"
-          />
-        </div>
-      </button>
-    );
+    if (props.day == "Fredag") {
+      return (
+        <button
+          className="day-button"
+          id="arrow-right"
+          type="submit"
+          onClick={props.showSchedule}
+        >
+          <h2>FRIDAY , 12th</h2>
+          <div className="right-arrow">
+            <img
+              className="baseline-chevron"
+              src="../../static/baseline-chevron_right.svg"
+            />
+          </div>
+        </button>
+      );
+    } else {
+      return (
+        <button
+          className="day-button"
+          id="arrow-right"
+          type="submit"
+          onClick={props.showSchedule}
+        >
+          <h2>SATURDAY , 13th</h2>
+          <div className="right-arrow">
+            <img
+              className="baseline-chevron"
+              src="../../static/baseline-chevron_right.svg"
+            />
+          </div>
+        </button>
+      );
+    }
   }
 };
 

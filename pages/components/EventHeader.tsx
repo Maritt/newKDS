@@ -3,7 +3,7 @@ const EventHeader = props => {
     <div id="event-header" className="content">
       <hr />
       <p>
-        {props.eventTime} {props.eventName}
+        {props.timeStart} - {props.timeEnd} {props.type}
       </p>
     </div>
   );
