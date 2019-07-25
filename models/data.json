@@ -1,0 +1,52 @@
+{
+  "program": {
+    "days": [
+      {
+        "day": "Fredag",
+        "slots": [
+          {
+            "timeStart": "09.00",
+            "timeEnd": "10.00",
+            "type": [
+              "Short-Talks"
+            ],
+            "rooms": [
+              {
+                "name": "C1",
+                "talks": [
+                  {
+                    "speaker": {},
+                    "talkId": "someID"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "day": "Lørdag",
+        "slots": [
+          {
+            "timeStart": "09.00",
+            "timeEnd": "10.00",
+            "type": [
+              "Short-Talks"
+            ],
+            "rooms": [
+              {
+                "name": "C1",
+                "talks": [
+                  {
+                    "speaker": {},
+                    "talkId": "someID"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

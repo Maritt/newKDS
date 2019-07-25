@@ -2,7 +2,8 @@ import { Component } from "react";
 import ScheduleEntry from "./ScheduleEntry";
 
 interface IProps {
-  day: string;
+  currDay: string;
+  slots: {};
 }
 class Day extends Component<IProps, any> {
   constructor(props) {
@@ -31,11 +32,11 @@ class Day extends Component<IProps, any> {
           <div>
             <ShowScheduleButton
               showSchedule={this.showSchedule}
-              day={this.props.day}
+              day={this.props.currDay}
               clicked={this.state.clicked}
             />
             <ScheduleEntry
-              eventTime="09:00"
+              eventTime={this.props.slots[0].timeStart}
               title="Morning Test talk title"
               speaker="Test Testesen"
               room="Room C3"
@@ -55,7 +56,7 @@ class Day extends Component<IProps, any> {
         {!this.state.clicked && (
           <ShowScheduleButton
             showSchedule={this.showSchedule}
-            day={this.props.day}
+            day={this.props.currDay}
             clicked={this.state.clicked}
           />
         )}
