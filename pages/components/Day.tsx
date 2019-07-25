@@ -1,5 +1,5 @@
 import { Component } from "react";
-import ScheduleEntry from "./ScheduleEntry";
+import ShowDailySchedule from "./ShowDailySchedule";
 
 interface IProps {
   day: string;
@@ -34,22 +34,6 @@ class Day extends Component<IProps, any> {
               day={this.props.day}
               clicked={this.state.clicked}
             />
-            <ScheduleEntry
-              eventTime="09:00"
-              title="Morning Test talk title"
-              speaker="Test Testesen"
-              room="Room C3"
-              type="Short talk"
-              language="English"
-            />
-            <ScheduleEntry
-              eventTime="12:00"
-              title="Midday Test talk title "
-              speaker="Test Testesen"
-              room="Room C5"
-              type="Short talk"
-              language="Norwegian"
-            />
           </div>
         )}
         {!this.state.clicked && (
@@ -67,20 +51,20 @@ class Day extends Component<IProps, any> {
 const ShowScheduleButton = props => {
   if (props.clicked) {
     return (
-      <button className="day-button" type="submit" onClick={props.showSchedule}>
-        <h2>{props.day}</h2>
-        <div className="right-arrow">
-          <img id="baseline-chevron" src="../../static/arrow_down.svg" />
-        </div>
-      </button>
+      <ShowDailySchedule day={props.day} showSchedule={props.showSchedule} />
     );
   } else {
     return (
-      <button className="day-button" type="submit" onClick={props.showSchedule}>
+      <button
+        className="day-button"
+        id="arrow-right"
+        type="submit"
+        onClick={props.showSchedule}
+      >
         <h2>{props.day}</h2>
         <div className="right-arrow">
           <img
-            id="baseline-chevron"
+            className="baseline-chevron"
             src="../../static/baseline-chevron_right.svg"
           />
         </div>

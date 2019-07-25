@@ -17,6 +17,9 @@ const Talk = props => {
         <p id="language" className="info-entry">
           {props.language}
         </p>
+        <p id="difficulty" className="info-entry">
+          {props.difficulty}
+        </p>
       </div>
     </div>
   );
