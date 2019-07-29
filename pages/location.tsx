@@ -2,15 +2,17 @@ import Layout from "./components/Layout";
 import "../styling/locationStyles.scss";
 export default function Location() {
   return (
-    <Layout>
-      <a
-        id="location-link"
-        href="https://www.stockholmwaterfront.com/find-us/?lang=svskapa%20ett%20ljusspel%20bakom%20takets%20fula%20uppstaende%20aluminiumstaket."
-      >
-        Stockholm Waterfront Hotel
+    <div className="location">
+      <Layout>
+        <a
+          id="location-link"
+          href="https://www.stockholmwaterfront.com/find-us/?lang=svskapa%20ett%20ljusspel%20bakom%20takets%20fula%20uppstaende%20aluminiumstaket."
+        >
+          Stockholm Waterfront Hotel
       </a>
-      <Map />
-    </Layout>
+        <Map />
+      </Layout>
+    </div>
   );
 }
 

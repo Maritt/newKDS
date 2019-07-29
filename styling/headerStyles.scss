@@ -1,29 +1,71 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import "variables";
 
 .header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: $secondary-color;
+  font-family: "Raleway";
+
+  @media screen and (max-width: $break-small) {
+    flex-direction: column;
+    width: 100%;
+  }
 
   #KDSlogo {
-    width: 20em;
-    margin-right: 2em;
-
+    width: 10em;
+    margin-right: 5%;
     @media screen and (max-width: $break-small) {
-      width: 10em;
+      width: 5em;
       margin-right: 1em;
     }
   }
-  #KDSheader {
-    width: 42%;
-    font-size: 4em;
-    color: $primary-color;
+  h2 {
     float: right;
+    margin-bottom: 0.5em;
+    font-weight: normal;
     @media screen and (max-width: $break-small) {
       float: right;
-      font-size: 1.8em;
+      font-size: 1.1em;
     }
+  }
+  h3 {
+    margin: 0em;
+    font-size: 1em;
+    font-weight: normal;
+    color: #75787b;
+    @media screen and (max-width: $break-small) {
+      font-size: 0.8em;
+    }
+
+    #location {
+      width: 1em;
+      margin-right: 0.5em;
+    }
+  }
+
+  h4 {
+    margin-top: 0em;
+    font-size: 0.8em;
+    font-weight: normal;
+    a {
+      text-decoration: none;
+      color: $link-color;
+    }
+
+    @media screen and (max-width: $break-small) {
+      font-size: 0.7em;
+    }
+  }
+
+  #KDSheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.menuAndHeader {
+  @media screen and (max-width: $break-small) {
+    display: flex;
   }
 }

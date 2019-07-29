@@ -5,29 +5,29 @@ const Menu = () => (
   <nav role="navigation">
     <div id="menuToggle">
       <input type="checkbox" />
-      <div id="menuButton">
+      <div className="menuButton">
         <span />
         <span />
         <span />
       </div>
       <div id="menu">
-        <Link href="/">
-          <a className="link">Home</a>
-        </Link>
-        <Link href="/practicalities">
-          <a className="link">Practical information</a>
-        </Link>
-        <Link href="/schedule">
-          <a className="link">Schedule</a>
+        <Link href="/schedule" >
+          <a className="link schedule">Schedule</a>
         </Link>
         <Link href="/talksAndSpeakers">
-          <a className="link">Talks and speakers</a>
+          <a className="link talksAndSpeakers">Talks and speakers</a>
         </Link>
         <Link href="/location">
-          <a className="link">Location</a>
+          <a className="link location">Location</a>
+        </Link>
+        <Link href="/practicalities">
+          <a className="link practicalities">Practicalities</a>
         </Link>
         <Link href="/codeOfConduct">
-          <a className="link">Code of Conduct</a>
+          <a className="link codeOfConduct">Code of conduct</a>
+        </Link>
+        <Link href="/aboutus">
+          <a className="link aboutUs">About us</a>
         </Link>
       </div>
     </div>
