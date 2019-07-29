@@ -11,6 +11,9 @@ const Menu = () => (
         <span />
       </div>
       <div id="menu">
+        <Link href="/practicalities">
+          <a className="link practicalities">Practicalities</a>
+        </Link>
         <Link href="/schedule" >
           <a className="link schedule">Schedule</a>
         </Link>
@@ -20,9 +23,7 @@ const Menu = () => (
         <Link href="/location">
           <a className="link location">Location</a>
         </Link>
-        <Link href="/practicalities">
-          <a className="link practicalities">Practicalities</a>
-        </Link>
+
         <Link href="/codeOfConduct">
           <a className="link codeOfConduct">Code of conduct</a>
         </Link>
