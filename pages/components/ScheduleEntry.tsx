@@ -18,14 +18,16 @@ class ScheduleEntry extends Component<IProps, any> {
           <EventHeader timeStart={this.props.slot.timeStart} timeEnd={this.props.slot.timeEnd} type={this.props.slot.type} />
           <div className="talk-slot">
 
-            {this.props.slot.rooms.map(room =>
-              <Talk title={room.talks[0].title}
-                speaker={room.talks[0].speaker.name}
-                room={room.name}
-                type={room.talks[0].type}
-                language={room.talks[0].language}
-                difficulty={room.talks[0].difficulty} />
-            )}
+            {this.props.slot.rooms.map(room => room.talks
+              .map(talk => talk.speakers
+                .map(speaker =>
+                  <Talk title={talk.title}
+                    speaker={speaker.name}
+                    room={room.name}
+                    type={talk.type}
+                    language={talk.language}
+                    difficulty={talk.difficulty} />
+                )))}
           </div>
         </div>
       );

@@ -1,8 +1,7 @@
+import "../../styling/styling.scss";
 const Talk = props => {
   return (
-
-
-    <div className="talk-container">
+    <div className="talk-container ">
 
       <h3 id="title">
         <a href="./talksAndSpeakers">{props.title}</a>
@@ -23,6 +22,14 @@ const Talk = props => {
         <p id="difficulty" className="info-entry">
           {props.difficulty}
         </p>
+      </div>
+      <div className="speaker-page content">
+        <h2 id="talk-speaker"> {props.speaker} </h2>
+        <p id="talk-speakerinfo"> {props.speakerInfo} </p>
+        <h2 id="talk-title"> {props.title} </h2>
+        <p id="talk.description"> {props.description}</p>
+        <br />
+        <hr />
       </div>
     </div>
   );

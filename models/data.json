@@ -13,20 +13,32 @@
                 "name": "C1",
                 "talks": [
                   {
-                    "speaker": { "name": "Test Testesen" },
-                    "talkId": "someID",
+                    "speakers": [
+                      {
+                        "name": "Test Testesen",
+                        "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
+                      }
+                    ],
+                    "talkId": "1",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 1",
-                    "type": "Short-talk"
+                    "type": "Short-talk",
+                    "description": "Here goes the discription of the talk, that should explain in detail what the talk is about. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
                   },
                   {
-                    "speaker": { "name": "Testemann Testesen" },
-                    "talkId": "someID",
+                    "speakers": [
+                      {
+                        "name": "Test Testesen",
+                        "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
+                      }
+                    ],
+                    "talkId": "2",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 1.1",
-                    "type": "Short-talk"
+                    "type": "Short-talk",
+                    "description": "Talk about computers"
                   }
                 ]
               },
@@ -34,12 +46,18 @@
                 "name": "C2",
                 "talks": [
                   {
-                    "speaker": { "name": "Test Testesen 2" },
-                    "talkId": "someID",
+                    "speakers": [
+                      {
+                        "name": "Test Testesen",
+                        "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
+                      }
+                    ],
+                    "talkId": "3",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
-                    "type": "Short-talk"
+                    "type": "Short-talk",
+                    "description": "Talk about computers"
                   }
                 ]
               },
@@ -47,12 +65,18 @@
                 "name": "C3",
                 "talks": [
                   {
-                    "speaker": { "name": "Test Testesen 3" },
-                    "talkId": "someID",
+                    "speakers": [
+                      {
+                        "name": "Test Testesen",
+                        "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
+                      }
+                    ],
+                    "talkId": "4",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 3",
-                    "type": "Short-talk"
+                    "type": "Short-talk",
+                    "description": "Talk about computers"
                   }
                 ]
               },
@@ -60,12 +84,18 @@
                 "name": "C4",
                 "talks": [
                   {
-                    "speaker": { "name": "Test Testesen 4" },
-                    "talkId": "someID",
+                    "speakers": [
+                      {
+                        "name": "Test Testesen",
+                        "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
+                      }
+                    ],
+                    "talkId": "5",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 4",
-                    "type": "Short-talk"
+                    "type": "Short-talk",
+                    "description": "Talk about computers"
                   }
                 ]
               }
@@ -85,12 +115,18 @@
                 "name": "C1",
                 "talks": [
                   {
-                    "speaker": { "name": "Test Testesen" },
+                    "speakers": [
+                      {
+                        "name": "Test Testesen",
+                        "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
+                      }
+                    ],
                     "talkId": "someID",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
-                    "type": "Short-talk"
+                    "type": "Short-talk",
+                    "description": "Talk about computers"
                   }
                 ]
               },
@@ -98,12 +134,18 @@
                 "name": "C2",
                 "talks": [
                   {
-                    "speaker": { "name": "Test Testesen 2" },
+                    "speakers": [
+                      {
+                        "name": "Test Testesen",
+                        "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
+                      }
+                    ],
                     "talkId": "someID",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
-                    "type": "Long-talk"
+                    "type": "Long-talk",
+                    "description": "Talk about computers"
                   }
                 ]
               },
@@ -111,12 +153,18 @@
                 "name": "C3",
                 "talks": [
                   {
-                    "speaker": { "name": "Test Testesen 3" },
+                    "speakers": [
+                      {
+                        "name": "Test Testesen",
+                        "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
+                      }
+                    ],
                     "talkId": "someID",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 3",
-                    "type": "Long-talk"
+                    "type": "Long-talk",
+                    "description": "Talk about computers"
                   }
                 ]
               },
@@ -124,12 +172,18 @@
                 "name": "C4",
                 "talks": [
                   {
-                    "speaker": { "name": "Test Testesen 4" },
+                    "speakers": [
+                      {
+                        "name": "Test Testesen",
+                        "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
+                      }
+                    ],
                     "talkId": "someID",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 4",
-                    "type": "Long-talk"
+                    "type": "Long-talk",
+                    "description": "Talk about computers"
                   }
                 ]
               }
@@ -150,12 +204,18 @@
                 "name": "C1",
                 "talks": [
                   {
-                    "speaker": { "name": "Test Testesen" },
+                    "speakers": [
+                      {
+                        "name": "Test Testesen",
+                        "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
+                      }
+                    ],
                     "talkId": "someID",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 1 lørdag",
-                    "type": "Short-talk"
+                    "type": "Short-talk",
+                    "description": "Talk about computers"
                   }
                 ]
               },
@@ -163,12 +223,18 @@
                 "name": "C2",
                 "talks": [
                   {
-                    "speaker": { "name": "Test Testesen" },
+                    "speakers": [
+                      {
+                        "name": "Test Testesen",
+                        "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
+                      }
+                    ],
                     "talkId": "someID",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2 lørdag",
-                    "type": "Short-talk"
+                    "type": "Short-talk",
+                    "description": "Talk about computers"
                   }
                 ]
               },
@@ -176,12 +242,18 @@
                 "name": "C3",
                 "talks": [
                   {
-                    "speaker": { "name": "Test Testesen" },
+                    "speakers": [
+                      {
+                        "name": "Test Testesen",
+                        "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
+                      }
+                    ],
                     "talkId": "someID",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 3 lørdag",
-                    "type": "Short-talk"
+                    "type": "Short-talk",
+                    "description": "Talk about computers"
                   }
                 ]
               },
@@ -189,12 +261,18 @@
                 "name": "C4",
                 "talks": [
                   {
-                    "speaker": { "name": "Test Testesen" },
+                    "speakers": [
+                      {
+                        "name": "Test Testesen",
+                        "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
+                      }
+                    ],
                     "talkId": "someID",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 4 lørdag",
-                    "type": "Short-talk"
+                    "type": "Short-talk",
+                    "description": "Talk about computers"
                   }
                 ]
               }
@@ -214,12 +292,18 @@
                 "name": "C1",
                 "talks": [
                   {
-                    "speaker": { "name": "Test Testesen" },
+                    "speakers": [
+                      {
+                        "name": "Test Testesen",
+                        "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
+                      }
+                    ],
                     "talkId": "someID",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
-                    "type": "Short-talk"
+                    "type": "Short-talk",
+                    "description": "Talk about computers"
                   }
                 ]
               },
@@ -227,12 +311,18 @@
                 "name": "C2",
                 "talks": [
                   {
-                    "speaker": { "name": "Test Testesen 2" },
+                    "speakers": [
+                      {
+                        "name": "Test Testesen",
+                        "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
+                      }
+                    ],
                     "talkId": "someID",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
-                    "type": "Long-talk"
+                    "type": "Long-talk",
+                    "description": "Talk about computers"
                   }
                 ]
               },
@@ -240,12 +330,18 @@
                 "name": "C3",
                 "talks": [
                   {
-                    "speaker": { "name": "Test Testesen 3" },
+                    "speakers": [
+                      {
+                        "name": "Test Testesen",
+                        "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
+                      }
+                    ],
                     "talkId": "someID",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 3",
-                    "type": "Long-talk"
+                    "type": "Long-talk",
+                    "description": "Talk about computers"
                   }
                 ]
               },
@@ -253,12 +349,18 @@
                 "name": "C4",
                 "talks": [
                   {
-                    "speaker": { "name": "Test Testesen 4" },
+                    "speakers": [
+                      {
+                        "name": "Test Testesen",
+                        "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
+                      }
+                    ],
                     "talkId": "someID",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 4",
-                    "type": "Long-talk"
+                    "type": "Long-talk",
+                    "description": "Talk about computers"
                   }
                 ]
               }

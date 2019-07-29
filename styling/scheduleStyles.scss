@@ -1,91 +1,97 @@
 @import "variables";
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 
-.talk-slot {
-  @media screen and (min-width: $break-large) {
-    display: flex;
+div.schedule {
+  .talk-slot {
+    @media screen and (min-width: $break-large) {
+      display: flex;
+      width: 70%;
+      margin-left: auto;
+      margin-right: auto;
+      justify-content: space-evenly;
+    }
+    @media screen and (max-width: $break-large) {
+      display: block;
+    }
+  }
+  .talk-container {
+    background-color: $button-color;
+    width: 20%;
+
+    @media screen and (max-width: $break-large) {
+      width: 85%;
+      margin: 1em;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0.3em;
+    }
+
+    #title {
+      font-size: 1.5em;
+      margin-bottom: 0px;
+      margin-left: 1em;
+    }
+    #speaker {
+      margin-top: 0.5em;
+      margin-left: 1.5em;
+    }
+
+    .talk-info {
+      margin-left: 1.5em;
+      display: flex;
+      justify-content: flex-start;
+      flex-wrap: wrap;
+
+      .info-entry {
+        margin-right: 2em;
+      }
+    }
+  }
+
+  #event-header {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    justify-content: space-evenly;
-  }
-  @media screen and (max-width: $break-large) {
-    display: block;
-  }
-}
-.talk-container {
-  background-color: $button-color;
-  width: 20%;
+    font-size: 3em;
 
-  @media screen and (max-width: $break-large) {
-    width: 85%;
-    margin: 1em;
+    @media screen and (max-width: $break-small) {
+      font-size: 2em;
+    }
+  }
+
+  .speaker-page {
+    display: none;
+  }
+
+  .day-button {
+    border: none;
+    background-color: $button-color;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+    padding: 2em;
+    margin-top: 2em;
     margin-left: auto;
     margin-right: auto;
-    padding: 0.3em;
-  }
 
-  #title {
-    font-size: 1.5em;
-    margin-bottom: 0px;
-    margin-left: 1em;
-  }
-  #speaker {
-    margin-top: 0.5em;
-    margin-left: 1.5em;
-  }
+    @media screen and (max-width: $break-small) {
+      font-size: 0.7em;
+      padding: 1.3em;
+    }
 
-  .talk-info {
-    margin-left: 1.5em;
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-
-    .info-entry {
-      margin-right: 2em;
+    .right-arrow {
+      .baseline-chevron {
+        width: 3em;
+      }
     }
   }
-}
-
-#event-header {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  font-size: 3em;
-
-  @media screen and (max-width: $break-small) {
-    font-size: 2em;
-  }
-}
-
-.day-button {
-  border: none;
-  background-color: $button-color;
-  font-family: "Raleway", sans-serif;
-  display: flex;
-  justify-content: space-between;
-  width: 70%;
-  align-items: center;
-  padding: 2em;
-  margin-top: 2em;
-  margin-left: auto;
-  margin-right: auto;
-
-  @media screen and (max-width: $break-small) {
-    font-size: 0.7em;
-    padding: 1.3em;
-  }
-
-  .right-arrow {
-    .baseline-chevron {
-      width: 3em;
-    }
-  }
-}
-#arrow-right {
-  :hover {
-    .baseline-chevron {
-      transform: rotate(90deg);
+  #arrow-right {
+    :hover {
+      .baseline-chevron {
+        transform: rotate(90deg);
+      }
     }
   }
 }

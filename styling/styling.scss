@@ -1,15 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import "variables";
 .content {
-  margin-top: 1em;
-
   .paragraphLink {
     color: $link-color;
     font-weight: bold;
-  }
-
-  @media screen and (max-width: $break-small) {
-    font-size: 0.7em;
   }
 }
 body {
