@@ -1,6 +1,7 @@
 import Layout from "./components/Layout";
 import Talk from "./components/Talk";
 import "../styling/talksAndSpeakersStyles.scss";
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 import { program as Program } from "../models/data.json";
 
@@ -19,7 +20,9 @@ export default function TalksAndSpeakers() {
               .map(room => room.talks
                 .map(talk => talk.speakers
                   .map(speaker =>
-                    <Talk description={talk.description} speakerInfo={speaker.info} speaker={speaker.name} title={talk.title} />
+                    <ScrollableAnchor id={'section' + talk.talkId}>
+                      <Talk description={talk.description} speakerInfo={speaker.info} speaker={speaker.name} title={talk.title} />
+                    </ScrollableAnchor>
                   )))
             ))}
 

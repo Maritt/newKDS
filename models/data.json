@@ -33,7 +33,7 @@
                         "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
                       }
                     ],
-                    "talkId": "2",
+                    "talkId": "1.1",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 1.1",
@@ -52,7 +52,7 @@
                         "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
                       }
                     ],
-                    "talkId": "3",
+                    "talkId": "2",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
@@ -71,7 +71,7 @@
                         "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
                       }
                     ],
-                    "talkId": "4",
+                    "talkId": "3",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 3",
@@ -90,7 +90,7 @@
                         "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
                       }
                     ],
-                    "talkId": "5",
+                    "talkId": "4",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 4",
@@ -121,7 +121,7 @@
                         "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
                       }
                     ],
-                    "talkId": "someID",
+                    "talkId": "5",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
@@ -140,7 +140,7 @@
                         "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
                       }
                     ],
-                    "talkId": "someID",
+                    "talkId": "6",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
@@ -159,7 +159,7 @@
                         "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
                       }
                     ],
-                    "talkId": "someID",
+                    "talkId": "7",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 3",
@@ -178,7 +178,7 @@
                         "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
                       }
                     ],
-                    "talkId": "someID",
+                    "talkId": "8",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 4",
@@ -210,7 +210,7 @@
                         "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
                       }
                     ],
-                    "talkId": "someID",
+                    "talkId": "9",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 1 lørdag",
@@ -229,7 +229,7 @@
                         "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
                       }
                     ],
-                    "talkId": "someID",
+                    "talkId": "10",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2 lørdag",
@@ -248,7 +248,7 @@
                         "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
                       }
                     ],
-                    "talkId": "someID",
+                    "talkId": "11",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 3 lørdag",
@@ -267,7 +267,7 @@
                         "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
                       }
                     ],
-                    "talkId": "someID",
+                    "talkId": "12",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 4 lørdag",
@@ -298,7 +298,7 @@
                         "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
                       }
                     ],
-                    "talkId": "someID",
+                    "talkId": "13",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
@@ -317,7 +317,7 @@
                         "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
                       }
                     ],
-                    "talkId": "someID",
+                    "talkId": "14",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
@@ -336,7 +336,7 @@
                         "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
                       }
                     ],
-                    "talkId": "someID",
+                    "talkId": "15",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 3",
@@ -355,7 +355,7 @@
                         "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
                       }
                     ],
-                    "talkId": "someID",
+                    "talkId": "16",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 4",

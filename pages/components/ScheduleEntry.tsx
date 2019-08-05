@@ -26,7 +26,8 @@ class ScheduleEntry extends Component<IProps, any> {
                     room={room.name}
                     type={talk.type}
                     language={talk.language}
-                    difficulty={talk.difficulty} />
+                    difficulty={talk.difficulty}
+                    talkId={talk.talkId} />
                 )))}
           </div>
         </div>

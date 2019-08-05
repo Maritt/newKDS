@@ -1,10 +1,15 @@
 import "../../styling/styling.scss";
+
+
 const Talk = props => {
+
+
   return (
     <div className="talk-container ">
 
       <h3 id="title">
-        <a href="./talksAndSpeakers">{props.title}</a>
+        <a href={"./talksAndSpeakers#section" + props.talkId}>{props.title}</a>
+
       </h3>
       <p id="speaker">
         <a href="./talksAndSpeakers">{props.speaker}</a>
@@ -34,5 +39,6 @@ const Talk = props => {
     </div>
   );
 };
+
 
 export default Talk;
