@@ -4,7 +4,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-family: "Raleway";
+  font-family: $font-family;
 
   @media screen and (max-width: $break-small) {
     flex-direction: column;
