@@ -1,11 +1,25 @@
+import { Component } from "react";
 import Layout from "./components/Layout";
+import "../styling/headerStyles.scss";
+import "../styling/scheduleStyles.scss";
+import "../styling/styling.scss";
+import Day from "./components/Day";
+import { program as Program } from "../models/data.json";
 
-export default function Schedule() {
-  return (
-    <div className="schedule">
+class Schedule extends Component {
+
+  
+  render() {
+    return (
       <Layout>
-        <p>This page contains the schedule</p>
+        <h1>Schedule</h1>   
+
+        {Program.days.map(day => 
+          <Day currDay={day.day} slots={day.slots} />
+        )}
       </Layout>
-    </div>
-  );
+    );
+  }
 }
+
+export default Schedule

@@ -1,0 +1,271 @@
+{
+  "program": {
+    "days": [
+      {
+        "day": "Fredag",
+        "slots": [
+          {
+            "timeStart": "08.00",
+            "timeEnd": "09.30",
+            "type": ["Short-Talks"],
+            "rooms": [
+              {
+                "name": "C1",
+                "talks": [
+                  {
+                    "speaker": { "name": "Test Testesen" },
+                    "talkId": "someID",
+                    "language": "English",
+                    "difficulty": "Intermediate",
+                    "title": "Test talk 1",
+                    "type": "Short-talk"
+                  },
+                  {
+                    "speaker": { "name": "Testemann Testesen" },
+                    "talkId": "someID",
+                    "language": "English",
+                    "difficulty": "Intermediate",
+                    "title": "Test talk 1.1",
+                    "type": "Short-talk"
+                  }
+                ]
+              },
+              {
+                "name": "C2",
+                "talks": [
+                  {
+                    "speaker": { "name": "Test Testesen 2" },
+                    "talkId": "someID",
+                    "language": "English",
+                    "difficulty": "Intermediate",
+                    "title": "Test talk 2",
+                    "type": "Short-talk"
+                  }
+                ]
+              },
+              {
+                "name": "C3",
+                "talks": [
+                  {
+                    "speaker": { "name": "Test Testesen 3" },
+                    "talkId": "someID",
+                    "language": "English",
+                    "difficulty": "Intermediate",
+                    "title": "Test talk 3",
+                    "type": "Short-talk"
+                  }
+                ]
+              },
+              {
+                "name": "C4",
+                "talks": [
+                  {
+                    "speaker": { "name": "Test Testesen 4" },
+                    "talkId": "someID",
+                    "language": "English",
+                    "difficulty": "Intermediate",
+                    "title": "Test talk 4",
+                    "type": "Short-talk"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "timeStart": "11.00",
+            "timeEnd": "12.00",
+            "type": ["Lunch"]
+          },
+          {
+            "timeStart": "12.00",
+            "timeEnd": "13.30",
+            "type": ["Long-Talks"],
+            "rooms": [
+              {
+                "name": "C1",
+                "talks": [
+                  {
+                    "speaker": { "name": "Test Testesen" },
+                    "talkId": "someID",
+                    "language": "English",
+                    "difficulty": "Intermediate",
+                    "title": "Test talk 2",
+                    "type": "Short-talk"
+                  }
+                ]
+              },
+              {
+                "name": "C2",
+                "talks": [
+                  {
+                    "speaker": { "name": "Test Testesen 2" },
+                    "talkId": "someID",
+                    "language": "English",
+                    "difficulty": "Intermediate",
+                    "title": "Test talk 2",
+                    "type": "Long-talk"
+                  }
+                ]
+              },
+              {
+                "name": "C3",
+                "talks": [
+                  {
+                    "speaker": { "name": "Test Testesen 3" },
+                    "talkId": "someID",
+                    "language": "English",
+                    "difficulty": "Intermediate",
+                    "title": "Test talk 3",
+                    "type": "Long-talk"
+                  }
+                ]
+              },
+              {
+                "name": "C4",
+                "talks": [
+                  {
+                    "speaker": { "name": "Test Testesen 4" },
+                    "talkId": "someID",
+                    "language": "English",
+                    "difficulty": "Intermediate",
+                    "title": "Test talk 4",
+                    "type": "Long-talk"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+
+      {
+        "day": "Lørdag",
+        "slots": [
+          {
+            "timeStart": "08.00",
+            "timeEnd": "10.00",
+            "type": ["Short-Talks"],
+            "rooms": [
+              {
+                "name": "C1",
+                "talks": [
+                  {
+                    "speaker": { "name": "Test Testesen" },
+                    "talkId": "someID",
+                    "language": "English",
+                    "difficulty": "Intermediate",
+                    "title": "Test talk 1 lørdag",
+                    "type": "Short-talk"
+                  }
+                ]
+              },
+              {
+                "name": "C2",
+                "talks": [
+                  {
+                    "speaker": { "name": "Test Testesen" },
+                    "talkId": "someID",
+                    "language": "English",
+                    "difficulty": "Intermediate",
+                    "title": "Test talk 2 lørdag",
+                    "type": "Short-talk"
+                  }
+                ]
+              },
+              {
+                "name": "C3",
+                "talks": [
+                  {
+                    "speaker": { "name": "Test Testesen" },
+                    "talkId": "someID",
+                    "language": "English",
+                    "difficulty": "Intermediate",
+                    "title": "Test talk 3 lørdag",
+                    "type": "Short-talk"
+                  }
+                ]
+              },
+              {
+                "name": "C4",
+                "talks": [
+                  {
+                    "speaker": { "name": "Test Testesen" },
+                    "talkId": "someID",
+                    "language": "English",
+                    "difficulty": "Intermediate",
+                    "title": "Test talk 4 lørdag",
+                    "type": "Short-talk"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "timeStart": "11.00",
+            "timeEnd": "12.00",
+            "type": ["Lunch"]
+          },
+          {
+            "timeStart": "12.00",
+            "timeEnd": "13.30",
+            "type": ["Long-Talks"],
+            "rooms": [
+              {
+                "name": "C1",
+                "talks": [
+                  {
+                    "speaker": { "name": "Test Testesen" },
+                    "talkId": "someID",
+                    "language": "English",
+                    "difficulty": "Intermediate",
+                    "title": "Test talk 2",
+                    "type": "Short-talk"
+                  }
+                ]
+              },
+              {
+                "name": "C2",
+                "talks": [
+                  {
+                    "speaker": { "name": "Test Testesen 2" },
+                    "talkId": "someID",
+                    "language": "English",
+                    "difficulty": "Intermediate",
+                    "title": "Test talk 2",
+                    "type": "Long-talk"
+                  }
+                ]
+              },
+              {
+                "name": "C3",
+                "talks": [
+                  {
+                    "speaker": { "name": "Test Testesen 3" },
+                    "talkId": "someID",
+                    "language": "English",
+                    "difficulty": "Intermediate",
+                    "title": "Test talk 3",
+                    "type": "Long-talk"
+                  }
+                ]
+              },
+              {
+                "name": "C4",
+                "talks": [
+                  {
+                    "speaker": { "name": "Test Testesen 4" },
+                    "talkId": "someID",
+                    "language": "English",
+                    "difficulty": "Intermediate",
+                    "title": "Test talk 4",
+                    "type": "Long-talk"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
