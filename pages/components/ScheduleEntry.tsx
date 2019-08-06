@@ -11,31 +11,22 @@ class ScheduleEntry extends Component<IProps, any> {
   }
 
   render() {
+    return (
+      <div className="content">
+        <div className="talk-slot">
 
-    if (this.props.slot.rooms) {
-      return (
-        <div className="content">
-          <EventHeader timeStart={this.props.slot.timeStart} timeEnd={this.props.slot.timeEnd} type={this.props.slot.type} />
-          <div className="talk-slot">
-
-            {this.props.slot.rooms.map(room =>
-              room.talks.map(talk =>
-                <Talk title={talk.title}
-                  speaker={talk.speaker.name}
-                  room={room.name}
-                  type={talk.type}
-                  language={talk.language}
-                  difficulty={talk.difficulty} />
-              ))}
-          </div>
+          {this.props.slot.rooms.map(room =>
+            room.talks.map(talk =>
+              <Talk title={talk.title}
+                speaker={talk.speaker.name}
+                room={room.name}
+                type={talk.type}
+                language={talk.language}
+                difficulty={talk.difficulty} />
+            ))}
         </div>
-      );
-    } else {
-      //for slots that dont have talks, such as lunch, only the header should be displayed
-      return (<div className="content">
-        <EventHeader timeStart={this.props.slot.timeStart} timeEnd={this.props.slot.timeEnd} type={this.props.slot.type} />
-      </div>);
-    }
+      </div>
+    );
   }
 };
 export default ScheduleEntry;

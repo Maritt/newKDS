@@ -29,29 +29,16 @@ class Day extends Component<IProps, any> {
   render() {
     return (
       <div>
-        {this.state.clicked && (
-          <div>
-            <ShowScheduleButton
-              showSchedule={this.showSchedule}
-              day={this.props.currDay}
-              slots={this.props.slots}
-              clicked={this.state.clicked}
-            />
-          </div>
-        )}
-        {!this.state.clicked && (
-          <ShowScheduleButton
-            showSchedule={this.showSchedule}
-            day={this.props.currDay}
-            slots={this.props.slots}
-            clicked={this.state.clicked}
-          />
-        )}
+        <ShowScheduleButton
+          showSchedule={this.showSchedule}
+          day={this.props.currDay}
+          slots={this.props.slots}
+          clicked={this.state.clicked}
+        />
       </div>
     );
   }
 }
-
 const ShowScheduleButton = props => {
   if (props.clicked) {
     return (
