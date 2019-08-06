@@ -1,29 +1,72 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import "variables";
 
 .header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: $secondary-color;
+  font-family: $font-family;
+
+  @media screen and (max-width: $break-small) {
+    flex-direction: column;
+    width: 100%;
+  }
 
   #KDSlogo {
-    width: 20em;
-    margin-right: 2em;
-
+    width: 10em;
+    margin-right: 5%;
     @media screen and (max-width: $break-small) {
-      width: 10em;
+      width: 5em;
       margin-right: 1em;
     }
   }
-  #KDSheader {
-    width: 42%;
-    font-size: 4em;
-    color: $primary-color;
+  .headline {
     float: right;
+    margin-bottom: 0.5em;
+    font-weight: normal;
     @media screen and (max-width: $break-small) {
       float: right;
-      font-size: 1.8em;
+      font-size: 1.1em;
     }
+  }
+  .header-location {
+    margin: 0em;
+    font-size: 1em;
+    font-weight: normal;
+    color: #75787b;
+    @media screen and (max-width: $break-small) {
+      font-size: 0.8em;
+    }
+
+    #location-img {
+      width: 1em;
+      margin-right: 0.5em;
+    }
+  }
+
+  .header-subheadline {
+    margin-top: 0em;
+    font-size: 0.8em;
+    font-weight: normal;
+    .subheadline-link {
+      text-decoration: none;
+      color: $link-color;
+    }
+    @media screen and (max-width: $break-small) {
+      font-size: 0.7em;
+    }
+  }
+
+  #KDSheader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.menuAndHeader {
+  @media screen and (max-width: $break-small) {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
   }
 }

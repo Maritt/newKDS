@@ -5,6 +5,10 @@
     color: $link-color;
     font-weight: bold;
   }
+
+  @media screen and (max-width: $break-small) {
+    padding: 1em;
+  }
 }
 body {
   padding: 0;
