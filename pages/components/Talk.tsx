@@ -1,18 +1,17 @@
 import "../../styling/styling.scss";
-
+import Link from 'next/link';
 
 const Talk = props => {
 
 
   return (
-    <div className="talk-container ">
-
+    <div className="talk-container " id={props.id}>
       <h3 id="title">
-        <a href={"./talksAndSpeakers#section" + props.talkId}>{props.title}</a>
+        <Link href={"./talksAndSpeakers#" + props.talkId}><a>{props.title}</a></Link>
 
       </h3>
       <p id="speaker">
-        <a href="./talksAndSpeakers">{props.speaker}</a>
+        <Link href={"./talksAndSpeakers#" + props.talkId}><a>{props.speaker}</a></Link>
       </p>
       <div className="talk-info">
         <p id="room" className="info-entry">
