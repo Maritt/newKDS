@@ -1,11 +1,11 @@
 @import "variables";
 
 #map {
-  width: 80em;
-  height: 40em;
+  position: absolute;
+  width: 95%;
+  height: 60%;
 
   @media screen and (max-width: $break-small) {
-    width: 20em;
     height: 20em;
   }
 }
