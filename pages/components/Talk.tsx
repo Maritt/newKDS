@@ -1,10 +1,10 @@
+import "../../styling/scheduleStyles.scss";
+import FavouriteTalkButton from "./FavouriteTalkButton";
 const Talk = props => {
   return (
-
-
     <div className="talk-container">
 
-      <h3 id="title">
+      <h3 id="title" >
         <a href="./talksAndSpeakers">{props.title}</a>
       </h3>
       <p id="speaker">
@@ -24,6 +24,7 @@ const Talk = props => {
           {props.difficulty}
         </p>
       </div>
+      <FavouriteTalkButton talkId={props.talkId} />
     </div>
   );
 };

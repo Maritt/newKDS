@@ -8,14 +8,14 @@ import { program as Program } from "../models/data.json";
 
 class Schedule extends Component {
 
-  
+
   render() {
     return (
       <Layout>
-        <h1>Schedule</h1>   
+        <h1>Schedule</h1>
 
-        {Program.days.map(day => 
-          <Day currDay={day.day} slots={day.slots} />
+        {Program.days.map((day, i) =>
+          <Day key={i} currDay={day.day} slots={day.slots} />
         )}
       </Layout>
     );

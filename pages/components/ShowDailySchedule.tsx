@@ -11,11 +11,9 @@ const ShowDailySchedule = props => {
       {props.slots.map((slot, i) =>
         <div>
           <EventHeader key={i + "slot"} timeStart={slot.timeStart} timeEnd={slot.timeEnd} type={slot.type} />
-          {slot.rooms && <ScheduleEntry key={i + "slot"} slot={slot} />}
+          {slot.rooms && <ScheduleEntry key={i + 1 + "slot"} slot={slot} />}
         </div>
       )}
-
-
     </div>
   );
 };

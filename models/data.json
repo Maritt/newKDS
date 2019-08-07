@@ -14,18 +14,10 @@
                 "talks": [
                   {
                     "speaker": { "name": "Test Testesen" },
-                    "talkId": "someID",
+                    "talkId": "1",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 1",
-                    "type": "Short-talk"
-                  },
-                  {
-                    "speaker": { "name": "Testemann Testesen" },
-                    "talkId": "someID",
-                    "language": "English",
-                    "difficulty": "Intermediate",
-                    "title": "Test talk 1.1",
                     "type": "Short-talk"
                   }
                 ]
@@ -35,7 +27,7 @@
                 "talks": [
                   {
                     "speaker": { "name": "Test Testesen 2" },
-                    "talkId": "someID",
+                    "talkId": "2",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
@@ -48,7 +40,7 @@
                 "talks": [
                   {
                     "speaker": { "name": "Test Testesen 3" },
-                    "talkId": "someID",
+                    "talkId": "3",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 3",
@@ -61,7 +53,7 @@
                 "talks": [
                   {
                     "speaker": { "name": "Test Testesen 4" },
-                    "talkId": "someID",
+                    "talkId": "4",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 4",
@@ -86,7 +78,7 @@
                 "talks": [
                   {
                     "speaker": { "name": "Test Testesen" },
-                    "talkId": "someID",
+                    "talkId": "5",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
@@ -99,7 +91,7 @@
                 "talks": [
                   {
                     "speaker": { "name": "Test Testesen 2" },
-                    "talkId": "someID",
+                    "talkId": "6",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
@@ -112,7 +104,7 @@
                 "talks": [
                   {
                     "speaker": { "name": "Test Testesen 3" },
-                    "talkId": "someID",
+                    "talkId": "7",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 3",
@@ -125,7 +117,7 @@
                 "talks": [
                   {
                     "speaker": { "name": "Test Testesen 4" },
-                    "talkId": "someID",
+                    "talkId": "8",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 4",
@@ -151,7 +143,7 @@
                 "talks": [
                   {
                     "speaker": { "name": "Test Testesen" },
-                    "talkId": "someID",
+                    "talkId": "9",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 1 lørdag",
@@ -164,7 +156,7 @@
                 "talks": [
                   {
                     "speaker": { "name": "Test Testesen" },
-                    "talkId": "someID",
+                    "talkId": "10",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2 lørdag",
@@ -177,7 +169,7 @@
                 "talks": [
                   {
                     "speaker": { "name": "Test Testesen" },
-                    "talkId": "someID",
+                    "talkId": "11",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 3 lørdag",
@@ -190,7 +182,7 @@
                 "talks": [
                   {
                     "speaker": { "name": "Test Testesen" },
-                    "talkId": "someID",
+                    "talkId": "12",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 4 lørdag",
@@ -215,7 +207,7 @@
                 "talks": [
                   {
                     "speaker": { "name": "Test Testesen" },
-                    "talkId": "someID",
+                    "talkId": "13",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
@@ -228,7 +220,7 @@
                 "talks": [
                   {
                     "speaker": { "name": "Test Testesen 2" },
-                    "talkId": "someID",
+                    "talkId": "14",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
@@ -241,7 +233,7 @@
                 "talks": [
                   {
                     "speaker": { "name": "Test Testesen 3" },
-                    "talkId": "someID",
+                    "talkId": "15",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 3",
@@ -254,7 +246,7 @@
                 "talks": [
                   {
                     "speaker": { "name": "Test Testesen 4" },
-                    "talkId": "someID",
+                    "talkId": "16",
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 4",
