@@ -18,15 +18,8 @@
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 1",
-                    "type": "Short-talk"
-                  },
-                  {
-                    "speaker": { "name": "Testemann Testesen" },
-                    "talkId": "someID",
-                    "language": "English",
-                    "difficulty": "Intermediate",
-                    "title": "Test talk 1.1",
-                    "type": "Short-talk"
+                    "type": "Short-talk",
+                    "tags": ["machine learning", "Artificial intelligence"]
                   }
                 ]
               },
@@ -39,7 +32,8 @@
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
-                    "type": "Short-talk"
+                    "type": "Short-talk",
+                    "tags": ["machine learning", "Artificial intelligence"]
                   }
                 ]
               },
@@ -52,7 +46,8 @@
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 3",
-                    "type": "Short-talk"
+                    "type": "Short-talk",
+                    "tags": ["machine learning", "Artificial intelligence"]
                   }
                 ]
               },
@@ -65,7 +60,8 @@
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 4",
-                    "type": "Short-talk"
+                    "type": "Short-talk",
+                    "tags": ["machine learning", "Artificial intelligence"]
                   }
                 ]
               }
@@ -90,7 +86,8 @@
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
-                    "type": "Short-talk"
+                    "type": "Short-talk",
+                    "tags": ["machine learning", "Artificial intelligence"]
                   }
                 ]
               },
@@ -103,7 +100,8 @@
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
-                    "type": "Long-talk"
+                    "type": "Long-talk",
+                    "tags": ["machine learning", "Artificial intelligence"]
                   }
                 ]
               },
@@ -116,7 +114,8 @@
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 3",
-                    "type": "Long-talk"
+                    "type": "Long-talk",
+                    "tags": ["machine learning", "Artificial intelligence"]
                   }
                 ]
               },
@@ -129,7 +128,8 @@
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 4",
-                    "type": "Long-talk"
+                    "type": "Long-talk",
+                    "tags": ["machine learning", "Artificial intelligence"]
                   }
                 ]
               }
@@ -155,7 +155,8 @@
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 1 lørdag",
-                    "type": "Short-talk"
+                    "type": "Short-talk",
+                    "tags": ["machine learning", "Artificial intelligence"]
                   }
                 ]
               },
@@ -168,7 +169,8 @@
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2 lørdag",
-                    "type": "Short-talk"
+                    "type": "Short-talk",
+                    "tags": ["machine learning", "Artificial intelligence"]
                   }
                 ]
               },
@@ -181,7 +183,8 @@
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 3 lørdag",
-                    "type": "Short-talk"
+                    "type": "Short-talk",
+                    "tags": ["machine learning", "Artificial intelligence"]
                   }
                 ]
               },
@@ -194,7 +197,8 @@
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 4 lørdag",
-                    "type": "Short-talk"
+                    "type": "Short-talk",
+                    "tags": ["machine learning", "Artificial intelligence"]
                   }
                 ]
               }
@@ -219,7 +223,8 @@
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
-                    "type": "Short-talk"
+                    "type": "Short-talk",
+                    "tags": ["machine learning", "Artificial intelligence"]
                   }
                 ]
               },
@@ -232,7 +237,8 @@
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
-                    "type": "Long-talk"
+                    "type": "Long-talk",
+                    "tags": ["machine learning", "Artificial intelligence"]
                   }
                 ]
               },
@@ -245,7 +251,8 @@
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 3",
-                    "type": "Long-talk"
+                    "type": "Long-talk",
+                    "tags": ["machine learning", "Artificial intelligence"]
                   }
                 ]
               },
@@ -258,7 +265,8 @@
                     "language": "English",
                     "difficulty": "Intermediate",
                     "title": "Test talk 4",
-                    "type": "Long-talk"
+                    "type": "Long-talk",
+                    "tags": ["machine learning", "Artificial intelligence"]
                   }
                 ]
               }
