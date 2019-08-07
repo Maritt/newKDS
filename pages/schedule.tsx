@@ -8,16 +8,18 @@ import { program as Program } from "../models/data.json";
 
 class Schedule extends Component {
 
-  
+
   render() {
     return (
-      <Layout>
-        <h1>Schedule</h1>   
+      <div className="schedule">
+        <Layout>
+          <h1>Schedule</h1>
 
-        {Program.days.map(day => 
-          <Day currDay={day.day} slots={day.slots} />
-        )}
-      </Layout>
+          {Program.days.map(day =>
+            <Day currDay={day.day} slots={day.slots} />
+          )}
+        </Layout>
+      </div>
     );
   }
 }
