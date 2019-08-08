@@ -2,6 +2,7 @@ import Layout from "./components/Layout";
 import Talk from "./components/Talk";
 import "../styling/talksAndSpeakersStyles.scss";
 
+
 import { program as Program } from "../models/data.json";
 
 export default function TalksAndSpeakers() {
@@ -24,8 +25,8 @@ export default function TalksAndSpeakers() {
                       speakerInfo={speaker.info}
                       speaker={speaker.name}
                       title={talk.title}
-                      id={talk.talkId} >
-
+                      id={talk.talkId}
+                      tags={talk.tags} >
                     </Talk>
                   )
                 )

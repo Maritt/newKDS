@@ -5,6 +5,7 @@ import "../styling/scheduleStyles.scss";
 import "../styling/styling.scss";
 import Day from "./components/Day";
 import { program as Program } from "../models/data.json";
+import FilterButton from "./components/FilterButton";
 
 class Schedule extends Component {
 
@@ -14,10 +15,14 @@ class Schedule extends Component {
       <div className="schedule">
         <Layout>
           <h1>Schedule</h1>
-
-          {Program.days.map(day =>
-            <Day currDay={day.day} slots={day.slots} />
-          )}
+          <div className="schedule-content">
+            <FilterButton program={Program} />
+            <div className="schedule-content">
+              {Program.days.map(day =>
+                <Day currDay={day.day} slots={day.slots} />
+              )}
+            </div>
+          </div>
         </Layout>
       </div>
     );
