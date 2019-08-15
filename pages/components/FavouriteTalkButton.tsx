@@ -22,11 +22,12 @@ class FavouriteTalkButton extends React.Component<IProps, any> {
     }
 
     render() {
-        var icon = localStorage.getItem(this.props.talkId)
+
+            var icon = localStorage.getItem(this.props.talkId)
             ? '../../static/star.svg'
             : '../../static/outline-star.svg'
-        return (
-            <button onClick={() => this.favouriteButtonClick()} id="favourite-talk-button">
+            return (
+                <button onClick={() => this.favouriteButtonClick()} id="favourite-talk-button">
                 <img src={icon} />
             </button>
         );

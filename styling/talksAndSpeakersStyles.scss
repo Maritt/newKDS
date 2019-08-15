@@ -1,0 +1,21 @@
+@import "variables";
+div.talksAndSpeakers {
+  .info-entry,
+  .talk-info {
+    // display: none;
+  }
+
+  .talk-container {
+    #speaker,
+    #title {
+      // display: none;
+    }
+
+    .speaker-page {
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 3em;
+      width: 80%;
+    }
+  }
+}
