@@ -1,7 +1,5 @@
 import { Component } from "react";
 import Layout from "./components/Layout";
-import "../styling/headerStyles.scss";
-import "../styling/scheduleStyles.scss";
 import "../styling/styling.scss";
 import Day from "./components/Day";
 import { program as Program } from "../models/data.json";
