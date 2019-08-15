@@ -1,7 +1,5 @@
 import { Component } from "react";
 import Layout from "./components/Layout";
-import "../styling/headerStyles.scss";
-import "../styling/scheduleStyles.scss";
 import "../styling/styling.scss";
 import Day from "./components/Day";
 import { program as Program } from "../models/data.json";
@@ -18,8 +16,8 @@ class Schedule extends Component {
           <div className="schedule-content">
             <FilterButton program={Program} />
             <div className="schedule-content">
-              {Program.days.map(day =>
-                <Day currDay={day.day} slots={day.slots} />
+              {Program.days.map((day, i) =>
+                <Day key={i} currDay={day.day} slots={day.slots} />
               )}
             </div>
           </div>
