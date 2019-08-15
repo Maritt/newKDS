@@ -13,8 +13,8 @@ class Schedule extends Component {
         <Layout>
           <h1>Schedule</h1>
 
-          {Program.days.map(day =>
-            <Day currDay={day.day} slots={day.slots} />
+          {Program.days.map((day, i) =>
+            <Day key={i} currDay={day.day} slots={day.slots} />
           )}
         </Layout>
       </div>

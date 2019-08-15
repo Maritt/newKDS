@@ -1,14 +1,12 @@
-import "../../styling/styling.scss";
+import "../../styling/scheduleStyles.scss";
 import Link from 'next/link';
 
 const Talk = props => {
-
-
   return (
-    <div className="talk-container " id={props.id}>
-      <h3 id="title">
-        <Link href={"./talksAndSpeakers#" + props.talkId}><a>{props.title}</a></Link>
+    <div>
 
+      <h3 id="title" >
+        <Link href={"./talksAndSpeakers#" + props.talkId}><a>{props.title}</a></Link>
       </h3>
       <p id="speaker">
         <Link href={"./talksAndSpeakers#" + props.talkId}><a>{props.speaker}</a></Link>

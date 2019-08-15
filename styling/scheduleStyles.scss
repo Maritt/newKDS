@@ -14,84 +14,88 @@ div.schedule {
       display: block;
     }
   }
-  .talk-container {
-    background-color: $button-color;
-    width: 20%;
+}
+#favourite-talk-button {
+  background-color: Transparent;
+  border: none;
+}
+.talk-container {
+  background-color: $button-color;
+  width: 20%;
 
-    @media screen and (max-width: $break-large) {
-      width: 85%;
-      margin: 1em;
-      margin-left: auto;
-      margin-right: auto;
-      padding: 0.3em;
-    }
-
-    #title {
-      font-size: 1.5em;
-      margin-bottom: 0px;
-      margin-left: 1em;
-    }
-    #speaker {
-      margin-top: 0.5em;
-      margin-left: 1.5em;
-    }
-
-    .talk-info {
-      margin-left: 1.5em;
-      display: flex;
-      justify-content: flex-start;
-      flex-wrap: wrap;
-
-      .info-entry {
-        margin-right: 2em;
-      }
-    }
-  }
-
-  #event-header {
-    width: 70%;
+  @media screen and (max-width: $break-large) {
+    width: 85%;
+    margin: 1em;
     margin-left: auto;
     margin-right: auto;
-    font-size: 3em;
-
-    @media screen and (max-width: $break-small) {
-      font-size: 2em;
-    }
+    padding: 0.3em;
   }
 
-  .speaker-page {
-    display: none;
+  #title {
+    font-size: 1.5em;
+    margin-bottom: 0px;
+    margin-left: 1em;
+  }
+  #speaker {
+    margin-top: 0.5em;
+    margin-left: 1.5em;
   }
 
-  .day-button {
-    border: none;
-    background-color: $button-color;
-    font-family: "Raleway", sans-serif;
+  .talk-info {
+    margin-left: 1.5em;
     display: flex;
-    justify-content: space-between;
-    width: 70%;
-    align-items: center;
-    padding: 2em;
-    margin-top: 2em;
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 
-    @media screen and (max-width: $break-small) {
-      font-size: 0.7em;
-      padding: 1.3em;
-    }
-
-    .right-arrow {
-      .baseline-chevron {
-        width: 3em;
-      }
+    .info-entry {
+      margin-right: 2em;
     }
   }
-  #arrow-right {
-    :hover {
-      .baseline-chevron {
-        transform: rotate(90deg);
-      }
+}
+
+#event-header {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 3em;
+
+  @media screen and (max-width: $break-small) {
+    font-size: 2em;
+  }
+}
+
+.speaker-page {
+  display: none;
+}
+
+.day-button {
+  border: none;
+  background-color: $button-color;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  align-items: center;
+  padding: 2em;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+
+  @media screen and (max-width: $break-small) {
+    font-size: 0.7em;
+    padding: 1.3em;
+  }
+
+  .right-arrow {
+    .baseline-chevron {
+      width: 3em;
+    }
+  }
+}
+#arrow-right {
+  :hover {
+    .baseline-chevron {
+      transform: rotate(90deg);
     }
   }
 }
