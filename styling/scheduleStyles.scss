@@ -1,6 +1,35 @@
 @import "variables";
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
+#filter-button {
+  background-color: Transparent;
+  font-family: $font-family;
+  font-size: 1em;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
 
+  @media screen and (max-width: $break-large) {
+    width: 10em;
+  }
+}
+
+#tag-button {
+  height: 4em;
+  border: none;
+  background-color: Transparent;
+  font-family: $font-family;
+  font-size: 1em;
+  width: 100%;
+
+  :hover {
+    background-color: $hover-color;
+  }
+}
+
+#filter-dropdown {
+  width: 15%;
+}
 div.schedule {
   .talk-slot {
     @media screen and (min-width: $break-large) {
@@ -50,6 +79,10 @@ div.schedule {
     .info-entry {
       margin-right: 2em;
     }
+
+    #tag-list {
+      display: none;
+    }
   }
 }
 
@@ -71,7 +104,7 @@ div.schedule {
 .day-button {
   border: none;
   background-color: $button-color;
-  font-family: "Raleway", sans-serif;
+  font-family: $font-family;
   display: flex;
   justify-content: space-between;
   width: 70%;

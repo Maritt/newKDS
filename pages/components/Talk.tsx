@@ -31,6 +31,13 @@ const Talk = props => {
         <h2 id="talk-title"> {props.title} </h2>
         <p id="talk.description"> {props.description}</p>
         <br />
+
+        <div id="tag-list">
+          <p>Tags:</p>
+          <ul>
+            {props.tags.map((tag, i) => <li id="tags-list-entry">{props.tags[i]}</li>)}
+          </ul>
+        </div>
         <hr />
       </div>
     </div>

@@ -29,7 +29,8 @@ class TalksAndSpeakers extends React.Component {
                         room={room.name}
                         language={talk.language}
                         key={i}
-                        difficulty={talk.difficulty} />
+                        difficulty={talk.difficulty}
+                        tags={talk.tags} />
                     </div>
                   )
                 )

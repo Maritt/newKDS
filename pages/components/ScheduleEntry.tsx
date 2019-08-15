@@ -29,7 +29,8 @@ class ScheduleEntry extends Component<IProps, any> {
                     language={talk.language}
                     difficulty={talk.difficulty}
                     talkId={talk.talkId}
-                    key={i} />
+                    key={i} 
+                    tags={talk.tags}/>
 
                   <FavouriteTalkButton talkId={talk.talkId} />
                 </div>
@@ -39,4 +40,5 @@ class ScheduleEntry extends Component<IProps, any> {
     );
   }
 };
+
 export default ScheduleEntry;

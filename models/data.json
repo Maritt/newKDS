@@ -1,5 +1,11 @@
 {
   "program": {
+    "tags": [
+      "machine learning",
+      "software development",
+      "Artificial intelligence",
+      "scrum"
+    ],
     "days": [
       {
         "day": "Fredag",
@@ -24,20 +30,7 @@
                     "difficulty": "Intermediate",
                     "title": "Test talk 1",
                     "type": "Short-talk",
-                    "description": "Here goes the discription of the talk, that should explain in detail what the talk is about. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
-                  },
-                  {
-                    "speakers": [
-                      {
-                        "name": "Test Testesen",
-                        "info": "Here the speaker can write some information about themselves such as current occupation, education, age, whatever. Test Testesen studied teststudies at the test university for 5 years. Now Test Testesen works for a company called Testit in Bergen. The company has 500 employees and have a very beautiful location by the pier. The sun is shining outside. "
-                      }
-                    ],
-                    "talkId": "1.1",
-                    "language": "English",
-                    "difficulty": "Intermediate",
-                    "title": "Test talk 1.1",
-                    "type": "Short-talk",
+                    "tags": ["machine learning", "scrum"],
                     "description": "Talk about computers"
                   }
                 ]
@@ -57,6 +50,7 @@
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
                     "type": "Short-talk",
+                    "tags": ["software development", "Artificial intelligence"],
                     "description": "Talk about computers"
                   }
                 ]
@@ -76,6 +70,7 @@
                     "difficulty": "Intermediate",
                     "title": "Test talk 3",
                     "type": "Short-talk",
+                    "tags": ["scrum", "software development"],
                     "description": "Talk about computers"
                   }
                 ]
@@ -95,6 +90,7 @@
                     "difficulty": "Intermediate",
                     "title": "Test talk 4",
                     "type": "Short-talk",
+                    "tags": ["Artificial intelligence"],
                     "description": "Talk about computers"
                   }
                 ]
@@ -126,6 +122,7 @@
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
                     "type": "Short-talk",
+                    "tags": ["machine learning"],
                     "description": "Talk about computers"
                   }
                 ]
@@ -145,6 +142,7 @@
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
                     "type": "Long-talk",
+                    "tags": ["scrum"],
                     "description": "Talk about computers"
                   }
                 ]
@@ -164,6 +162,7 @@
                     "difficulty": "Intermediate",
                     "title": "Test talk 3",
                     "type": "Long-talk",
+                    "tags": ["software development"],
                     "description": "Talk about computers"
                   }
                 ]
@@ -183,6 +182,7 @@
                     "difficulty": "Intermediate",
                     "title": "Test talk 4",
                     "type": "Long-talk",
+                    "tags": ["machine learning", "Artificial intelligence"],
                     "description": "Talk about computers"
                   }
                 ]
@@ -215,6 +215,7 @@
                     "difficulty": "Intermediate",
                     "title": "Test talk 1 lørdag",
                     "type": "Short-talk",
+                    "tags": ["machine learning", "Artificial intelligence"],
                     "description": "Talk about computers"
                   }
                 ]
@@ -234,6 +235,7 @@
                     "difficulty": "Intermediate",
                     "title": "Test talk 2 lørdag",
                     "type": "Short-talk",
+                    "tags": ["machine learning", "Artificial intelligence"],
                     "description": "Talk about computers"
                   }
                 ]
@@ -253,6 +255,7 @@
                     "difficulty": "Intermediate",
                     "title": "Test talk 3 lørdag",
                     "type": "Short-talk",
+                    "tags": ["machine learning", "Artificial intelligence"],
                     "description": "Talk about computers"
                   }
                 ]
@@ -272,6 +275,7 @@
                     "difficulty": "Intermediate",
                     "title": "Test talk 4 lørdag",
                     "type": "Short-talk",
+                    "tags": ["machine learning", "Artificial intelligence"],
                     "description": "Talk about computers"
                   }
                 ]
@@ -303,6 +307,7 @@
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
                     "type": "Short-talk",
+                    "tags": ["machine learning", "Artificial intelligence"],
                     "description": "Talk about computers"
                   }
                 ]
@@ -322,6 +327,7 @@
                     "difficulty": "Intermediate",
                     "title": "Test talk 2",
                     "type": "Long-talk",
+                    "tags": ["machine learning", "Artificial intelligence"],
                     "description": "Talk about computers"
                   }
                 ]
@@ -341,6 +347,7 @@
                     "difficulty": "Intermediate",
                     "title": "Test talk 3",
                     "type": "Long-talk",
+                    "tags": ["machine learning", "Artificial intelligence"],
                     "description": "Talk about computers"
                   }
                 ]
@@ -360,6 +367,7 @@
                     "difficulty": "Intermediate",
                     "title": "Test talk 4",
                     "type": "Long-talk",
+                    "tags": ["machine learning", "Artificial intelligence"],
                     "description": "Talk about computers"
                   }
                 ]
